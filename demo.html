@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Generator</title>
+    <!-- Add links to your CSS and JS files -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Story Generator</h1>
+    </header>
+
+    <!-- Story Prompt Form -->
+    <section class="prompt-form">
+        <h2>Provide a Story Prompt</h2>
+        <form id="storyPromptForm">
+            <textarea id="promptInput" rows="4" cols="50" placeholder="Enter your story prompt..."></textarea>
+            <button type="submit">Generate Story</button>
+        </form>
+    </section>
+
+    <!-- Generated Story Display -->
+    <section class="story-display">
+        <h2>Generated Story</h2>
+        <div id="generatedStory"></div>
+        <!-- Add options to read, save, and share the story -->
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="leaderboard">
+        <h2>Top-Voted Stories</h2>
+        <ol id="leaderboardList">
+            <!-- Display top-voted stories here -->
+        </ol>
+    </section>
+
+    <!-- JavaScript Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
